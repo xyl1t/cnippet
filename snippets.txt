@@ -2,9 +2,9 @@
 function_call(_1_, ___, ___);
 #END_SNIPPET fun
 
-#BEGIN_SNIPPET p
+#BEGIN_SNIPPET pr
 printf("_1_");
-#END_SNIPPET p
+#END_SNIPPET pr
 
 #BEGIN_SNIPPET if
 if (_1_) {
