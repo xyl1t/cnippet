@@ -1,6 +1,11 @@
 #BEGIN_SNIPPET fun
-function_call(_1_, ___, ___);
+function _1_(___) {
+}
 #END_SNIPPET fun
+
+#BEGIN_SNIPPET log
+console.log(_1_);
+#END_SNIPPET log
 
 #BEGIN_SNIPPET pr
 printf("_1_");
@@ -13,7 +18,7 @@ if (_1_) {
 #END_SNIPPET if
 
 #BEGIN_SNIPPET for
-for (int _1_ = ___; ___; ___) {
+for (_1_; ___; ___) {
     ___
 }
 #END_SNIPPET
