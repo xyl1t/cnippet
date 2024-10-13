@@ -1,6 +1,6 @@
 # cnippet
 
-![Demo](https://github.com/xyl1t/cdn/raw/refs/heads/main/cnippet/cnippet_demo.mp4)
+![Demo](https://cdn.jsdelivr.net/gh/xyl1t/cdn@master/cnippet/cnippet_demo.mp4)
 
 This is one half of a hack for getting around the fact that
 [Helix](https://helix-editor.com/) has a lack of supporting snippets.
