@@ -1,0 +1,75 @@
+#BEGIN_SNIPPET fun
+function _1_(___) {
+}
+#END_SNIPPET fun
+
+#BEGIN_SNIPPET log
+console.log(_1_);
+#END_SNIPPET log
+
+#BEGIN_SNIPPET pr
+printf("_1_");
+#END_SNIPPET pr
+
+#BEGIN_SNIPPET if
+if (_1_) {
+    ___
+}
+#END_SNIPPET if
+
+#BEGIN_SNIPPET for
+for (_1_; ___; ___) {
+    ___
+}
+#END_SNIPPET
+
+#BEGIN_SNIPPET html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Boilerplate</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  _1_
+</body>
+
+</html>
+#END_SNIPPET html
+
+#BEGIN_SNIPPET h1
+<h1>_1_</h1>
+#END_SNIPPET h1
+
+#BEGIN_SNIPPET h2
+<h2>_1_</h2>
+#END_SNIPPET h2
+
+#BEGIN_SNIPPET h3
+<h3>_1_</h3>
+#END_SNIPPET h3
+
+#BEGIN_SNIPPET h4
+<h4>_1_</h4>
+#END_SNIPPET h4
+
+#BEGIN_SNIPPET h5
+<h5>_1_</h5>
+#END_SNIPPET h5
+
+#BEGIN_SNIPPET p
+<p>_1_</p>
+#END_SNIPPET p
+
+#BEGIN_SNIPPET a
+<a href="_1_">___</a>
+#END_SNIPPET a
+
+#BEGIN_SNIPPET img
+<img src="_1_" alt="___" />
+#END_SNIPPET img
