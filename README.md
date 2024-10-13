@@ -47,10 +47,11 @@ First, you have to build it:
 make
 ```
 
-Then you copy the `cnippet` executable and the `snippets.txt` file which
-contains the snippets to your Helix config path.
+Then you copy (or link) the `cnippet` executable and the `snippets.txt` file
+which contains the snippets to your Helix config path (usually
+`~/.config/helix`).
 
-Or you can do that with:
+Or you can do those things with just by running this command:
 
 ```
 make install
