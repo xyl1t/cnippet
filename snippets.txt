@@ -27,16 +27,14 @@ for (int _1_ = ___; ___; ___) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML5 Boilerplate</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
 </head>
 
 <body>
-  <h1>Page Title</h1>
-  <script src="scripts.js"></script>
+  _1_
 </body>
 
 </html>
-
-_1_
 #END_SNIPPET html
 
 #BEGIN_SNIPPET h1
