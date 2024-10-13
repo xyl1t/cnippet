@@ -1,11 +1,14 @@
 # cnippet
 
+![Demo](https://github.com/xyl1t/cdn/raw/refs/heads/main/cnippet/cnippet_demo.mp4)
+
 This is one half of a hack for getting around the fact that
-[Helix](https://heli x-editor.com/) has a lack of supporting snippets.
+[Helix](https://helix-editor.com/) has a lack of supporting snippets.
 
 How it works:
 
-You pass a snippet to the program and it outputs the value for that snippet:
+You pass a snippet (as an argument or pipe it) to the program and it outputs
+the value for that snippet:
 
 ```
 $ ./cnippet a
@@ -14,17 +17,21 @@ $ ./cnippet a
 
 ## Snippet syntax
 
-There is an example snippet file available in this repository (`snippets.txt`), 
+There is an example snippet file available in this repository (`snippets.txt`),
 but the syntax is very basic.
 
 - `#BEGIN_SNIPPET name` where you indicate that a new snippet starts here with
   the given name
-- `#END_SNIPPET name` to indicate that the snippet stops here, the `name` is optional
+
+- `#END_SNIPPET name` to indicate that the snippet stops here, the `name` is
+  optional
+
 - `_1_` somewhere inside the snippet which is where the cursor position will be
-  after the snippet expansion. 
-- `___` optionally, you can add more place to jump to using `n` and `N` (it util
-  ises the search register `/`, so it's basically just searching forwards and 
-  backwards)
+  after the snippet expansion.
+
+- `___` optionally, you can add more place to jump to using `n` and `N` (it
+  utilises the search register `/`, so it's basically just searching forwards
+  and backwards)
 
 Complete example:
 
@@ -42,8 +49,8 @@ First, you have to build it:
 make
 ```
 
-Then you copy the `cnippet` executable and the `snippets.txt` file which contains the 
-snippets to your Helix config path.
+Then you copy the `cnippet` executable and the `snippets.txt` file which
+contains the snippets to your Helix config path.
 
 Or you can do that with:
 
@@ -72,5 +79,6 @@ position, if there are any `___`.
 
 ## Alternatives 
 
-- https://quantonganh.com/2023/07/31/create-snippets-in-helix.md
-- https://www.reddit.com/r/HelixEditor/comments/zk1ao5/how_to_create_language_snippets_in_helix/
+- <https://quantonganh.com/2023/07/31/create-snippets-in-helix.md>
+- <https://www.reddit.com/r/HelixEditor/comments/zk1ao5/how_to_create_language_snippets_in_helix/>
+
